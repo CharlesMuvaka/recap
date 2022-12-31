@@ -4,6 +4,7 @@ public class Employee {
     private int id;
     private String name;
     private int salary;
+    private Address address;
 
     public Employee(){}
 
@@ -34,5 +35,23 @@ public class Employee {
 
     public void setSalary(int salary) {
         this.salary = salary;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", salary=" + salary +
+                ", address=" + address +
+                '}';
     }
 }
