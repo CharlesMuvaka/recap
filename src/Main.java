@@ -8,6 +8,9 @@ public class Main {
                                  Spring core container
             - provides interfaces that are used to manage the bean's lifecycle.
                 1. BeanFactory
+                Resource resource = new Resource("bean.xml");
+                BeanFactory factory = new XmlResourcePath(resource);
+
                 - Creates object when requested
                 2. ApplicationContext - An implementation of the BeanFactory interface.
                 - Objects created when an instance is initialised.
