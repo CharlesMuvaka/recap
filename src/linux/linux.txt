@@ -1,0 +1,12 @@
+                        INTRODUCTION TO LINUX
+ - Linux is an open source operating system(provides the source code of the operating system functionality).
+    Linux Components
+    1. Kernel -  A computer program at the core of the operating system that has complete control of
+                everything in the operating system.
+    2.Daemons - This is a computer program that runs as a back-ground process
+    3.Configuration files - Special type of files that store the initial settings or values of a computer
+                            program.
+                           - Use a common type of extension .conf, .cnf
+    4. Applications -  A program aimed at performing a specific task.
+    5. Data files - Contains information created by the user.
+                   - They usually have a unique identifier.
