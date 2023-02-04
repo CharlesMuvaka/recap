@@ -46,3 +46,31 @@
       - During the installation process, the user is prompted to create a default user(The root user).
       - The name should always be in lower case and is usually stored in the etc/passwd file.
       - A password is also prompted which is stored in the etc/shadow file.
+
+            LINUX COMMAND PROMPT
+      - Bash is the default shell for linux distros, it provides a command prompt - A text interface
+        that enables a user to type commands directly to the kernel.
+      - on init, the shell displays the user and the machine he is working on [user@computerName].
+
+      - Most linux commands are case-sensitive and follow a common convention
+       [command] [option] [argument]
+      - The command is the instruction being executed on the kernel.
+      - option is additional information on the command
+      - argument is what the command is working on.
+
+            COMMON USEFUL COMMANDS
+      - whoami - prints out the current user in the machine.
+      - id - command prints out the current id of the user and group id the user is involved in.
+      - hostname - used to display or set the name of the system the user is working on.
+      - uptime - prints out the duration the system has been on since the last boot.
+      - date - prints out the current date
+      - cal - prints a simple calendar indicating the month we are currently at
+      - clear - used to clear the terminal screen
+      - cat - used to read the contents of a file.
+      - echo - used to print text on the terminal console.
+      - touch - used to create a file inside a directory
+      - history - prints out the list of commands that the user has typed.
+      - mkdir - creates a directory.
+      - cd - changes the directory that the user is in(cd .. - moves one step below your current directory
+              cd muvaka - enters into a directory known as muvaka,
+              cd - changes to the root directory of the user.)
