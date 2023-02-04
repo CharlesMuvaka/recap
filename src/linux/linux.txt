@@ -22,3 +22,12 @@
         2. The sh shell - The original shell for the unix Operating system( - operating system that linux
                         is built on.)
         3. The Ksh shell - The kornshell a common type of unix shell
+
+                    LINUX DISTRIBUTIONS
+       - A distro is a packaged version of linux ready to be used.
+       1. Ubuntu
+       2. KAli linux
+       3. Fedora
+       4. debian
+       5. Red Hat
+       6. Amazon Linux 2
