@@ -95,6 +95,9 @@
             1. -c "adds a comment/description about the user - Supposed to specify the users full name for clarity"
             2. -d "creates a home directory path for the user."
             3. -e "sets the expiration date for the user"
+        Example:
+            useradd -c "charles-muvaka" -d "/home/charles-muvaka" -e "2024/1/1" muvaka - creates a user with
+                    fullname the root directory an expiratin date named muvaka
 
         Modifying users
         - The usermod command is used to modify an existing user.
@@ -102,10 +105,45 @@
             1. -c "modify the full name of the user or the comment assigned to the user."
             2. -e "modifies the expiration date assigned to the user."
 
+        Example:
+            usermod -c "charles-muvaka-kata" -e "2025/1/1" muvaka - modifies the full name and expiration date of muvaka.
+
        Deleting Users
        - The userdel command is used to delete a user from the system.
        - It also takes in an optional -r parameter that also deletes the home directory.
 
+       Example:
+            userdel muvaka - Deletes user named muvaka from the system.
+
 
        Note: To modify/change a users password, we use the passwd command followed by the name of
              the user.
+
+             USER GROUPS
+       - a user group is a list of users
+       - Groups are stored in the /etc/group file.
+       - They are good for issuing similar permission rules to a set of users.
+
+       groupadd ec2-user - the groupadd command is used to create a new group.
+       groupmod -n ec2-users ec3-users - The groupmod -n command takes in two arguments
+                   1. the new name of the group.
+                   2. The old name of the group.
+       groupdel ec3-users - Deletes a group known as ec3-users from the system.
+
+                   Adding users in a group.
+       - You can add an user using two methods:
+            1. gpasswd - takes in an option and two argument
+                        option: -a
+                        argument1: name of user being added
+                        argument2: name of the group
+
+              Example:
+              gpasswd -a muvaka ec2-users
+            2. - You can modify the user by adding him to a group using the usermod command
+               - Also takes in an option and two arguments.
+               option: -a or -aG - The latter modifies the user without removing him from his previous groups.
+               argument1: name of the group,groups the user is being added into.
+               argument2: name of the user being modified
+
+                Example:
+                    usermod -aG hr muvaka - adds a user known as muvaka in the hr group without removing him from his previous groups.
