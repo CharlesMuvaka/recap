@@ -78,6 +78,8 @@
                indicate the number of lines you'd want to print. E.g tail -n 5 /etc/passwd -
                prints out the last five lines in the indicated folder.)
       - head - prints out the first 10 lines of a file( takes in -n option just as the tail command does.)
+      - grep - Used o search for an existing text in a file.
+      - passwd - used to change the password of a user.
 
             USER ACCOUNTS
       - The etc/passwd file stores all the users present in the system.
@@ -90,6 +92,16 @@
         Creating users
         - The useradd Command creates a new user and stores the name as usual i /etc/passwd file.
         - The command can take in several options.
-            1. -c "adds a comment/description about the user"
+            1. -c "adds a comment/description about the user - Supposed to specify the users full name for clarity"
             2. -d "creates a home directory path for the user."
             3. -e "sets the expiration date for the user"
+
+        Modifying users
+        - The usermod command is used to modify an existing user.
+        - Takes in options by default to specify what to be changed.
+            1. -c "modify the full name of the user or the comment assigned to the user."
+            2. -e "modifies the expiration date assigned to the user."
+
+       Deleting Users
+       - The userdel command is used to delete a user from the system.
+       - It also takes in an optional -r parameter that also deletes the home directory.
