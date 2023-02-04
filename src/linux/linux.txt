@@ -10,3 +10,15 @@
     4. Applications -  A program aimed at performing a specific task.
     5. Data files - Contains information created by the user.
                    - They usually have a unique identifier.
+
+                   LINUX USER_INTERFACE
+    - One can interact with the operating system in two ways.
+    1. Using Graphical User Interface -
+    2. Using the Command-Line Interface - Interaction occurs through the shell(- a program that
+        lets you type commands directly to the kernel)
+        - Each shell has its own syntax and a way of formatting commands.
+        Types
+        1. The bash shell - The default shell for most linux operating sytems
+        2. The sh shell - The original shell for the unix Operating system( - operating system that linux
+                        is built on.)
+        3. The Ksh shell - The kornshell a common type of unix shell
