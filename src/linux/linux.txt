@@ -74,3 +74,22 @@
       - cd - changes the directory that the user is in(cd .. - moves one step below your current directory
               cd muvaka - enters into a directory known as muvaka,
               cd - changes to the root directory of the user.)
+      - tail - prints out the last 10 lines of a file( takes in -n option that can be used to
+               indicate the number of lines you'd want to print. E.g tail -n 5 /etc/passwd -
+               prints out the last five lines in the indicated folder.)
+      - head - prints out the first 10 lines of a file( takes in -n option just as the tail command does.)
+
+            USER ACCOUNTS
+      - The etc/passwd file stores all the users present in the system.
+      - The users are stored using a common convention separated by a colon.
+        Starts with the username: EncryptedPassword: userID: GroupId: HomeDirectory: DefaultShell
+
+        Default user accounts.
+        - Created during the installation process and the user is given full administration privileges.
+
+        Creating users
+        - The useradd Command creates a new user and stores the name as usual i /etc/passwd file.
+        - The command can take in several options.
+            1. -c "adds a comment/description about the user"
+            2. -d "creates a home directory path for the user."
+            3. -e "sets the expiration date for the user"
