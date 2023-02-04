@@ -18,7 +18,7 @@
         lets you type commands directly to the kernel)
         - Each shell has its own syntax and a way of formatting commands.
         Types
-        1. The bash shell - The default shell for most linux operating sytems
+        1. The bash shell - The default shell for most linux operating systems
         2. The sh shell - The original shell for the unix Operating system( - operating system that linux
                         is built on.)
         3. The Ksh shell - The kornshell a common type of unix shell
@@ -31,3 +31,13 @@
        4. debian
        5. Red Hat
        6. Amazon Linux 2
+                    CONNECTING TO A REMOTE SERVER
+       - A secure shell is needed to connect to a remote server.
+       - An SSH is a network protocol that enables a user to securely connect to another computer.
+       - An ssh client is required to use an SSH.
+       - Linux gives you access to the SSH client via the terminal.
+       - SSH initiates connection using port 22.
+
+       NOTE: Every Linux distribution instance comes in with a default user. E.g the Amazon Linux 2
+            distro comes with an ec2 - default user.
+            - To connect to this instance you need a private key that is automaticaly generated for you.
