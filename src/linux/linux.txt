@@ -3,7 +3,7 @@
     Linux Components
     1. Kernel -  A computer program at the core of the operating system that has complete control of
                 everything in the operating system.
-    2.Daemons - This is a computer program that runs as a back-ground process
+    2.Daemons - This is a computer program that runs as a back-ground processes
     3.Configuration files - Special type of files that store the initial settings or values of a computer
                             program.
                            - Use a common type of extension .conf, .cnf
@@ -40,4 +40,9 @@
 
        NOTE: Every Linux distribution instance comes in with a default user. E.g the Amazon Linux 2
             distro comes with an ec2 - default user.
-            - To connect to this instance you need a private key that is automaticaly generated for you.
+            - To connect to this instance you need a private key that is automatically generated for you.
+
+            LINUX LOGIN WORK FLOW
+      - During the installation process, the user is prompted to create a default user(The root user).
+      - The name should always be in lower case and is usually stored in the etc/passwd file.
+      - A password is also prompted which is stored in the etc/shadow file.
