@@ -138,6 +138,13 @@
                         argument2: name of the group
 
               Example:
+                 -d - deletes a user from a group
+
+                 Example: gpasswd -d muvaka ec3-users - deletes a user known as muvaka from ec3-users group.
+                 -m - add a list of members to the group
+                 -a sets the administrators in the group.
+
+
               gpasswd -a muvaka ec2-users
             2. - You can modify the user by adding him to a group using the usermod command
                - Also takes in an option and two arguments.
@@ -147,3 +154,16 @@
 
                 Example:
                     usermod -aG hr muvaka - adds a user known as muvaka in the hr group without removing him from his previous groups.
+
+
+
+       USER-PERMISSIONS
+    - There are two types of users in the system.
+        1. The root user
+        2. A standard user
+        - The root user has all the permissions in the system
+        - The standard user has permissions on files he creates or the ones he's granted permission to work on.
+        Note: The root user is always denoted by an # sign after the prompt while a standard user is denoted by a $ sign.
+
+        SWITCHING BETWEEN USERS
+
