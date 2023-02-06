@@ -14,6 +14,10 @@
     2. Presentation
     3. Session
     4. Transport
-    5. Network
-    6. Data Link
+    5. Network - Data is known as packets and is associated with an IP address.
+    6. Data Link - Data is known as a frame and it is associated with a MAC address
     7. Physical
+
+  NOTE: Both MAC and IP addresses are used to identify computers in a network.
+        The MAC address is issued by the vendor during the manufacture of a machine
+        while the IP address is provided by the internet service provider.
