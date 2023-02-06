@@ -15,9 +15,21 @@
     3. Session
     4. Transport
     5. Network - Data is known as packets and is associated with an IP address.
-    6. Data Link - Data is known as a frame and it is associated with a MAC address
+    6. Data Link - Data is known as a frame, and it is associated with a MAC address
     7. Physical
 
   NOTE: Both MAC and IP addresses are used to identify computers in a network.
         The MAC address is issued by the vendor during the manufacture of a machine
         while the IP address is provided by the internet service provider.
+
+  Networking Components
+  1. Client - A computer device or program that sends requests to a server for resources.
+  2. Server -  A computer that receives requests and sends responses to a client.
+  3. Hub - Connects multiple computers together in a network. It doesn't send the data to a specific
+            address, all computers receive the data thought the intended recipient is the only one
+            that listens to the data.
+  4. Switch - Connects multiple computers in a network and sends data to the intended computer using
+              the mac address indicated.
+       NOTE: The switch and the hub are both layer 2 devices
+  5. Router - Connects multiple switches/ hubs together. It filters data and sends it to its
+            intended destination. It operates both in layer 2 and 3. Can read data as a frame or a packet.
