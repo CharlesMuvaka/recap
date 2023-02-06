@@ -78,7 +78,7 @@
                indicate the number of lines you'd want to print. E.g tail -n 5 /etc/passwd -
                prints out the last five lines in the indicated folder.)
       - head - prints out the first 10 lines of a file( takes in -n option just as the tail command does.)
-      - grep - Used o search for an existing text in a file.
+      - grep - Used to search for an existing text in a file.
       - passwd - used to change the password of a user.
 
             USER ACCOUNTS
@@ -163,7 +163,10 @@
         2. A standard user
         - The root user has all the permissions in the system
         - The standard user has permissions on files he creates or the ones he's granted permission to work on.
+
         Note: The root user is always denoted by an # sign after the prompt while a standard user is denoted by a $ sign.
+              It is good to login as a standard user and then elevate yourself to the permissions you need.
+              delete / can be run by the root o erase the whole system.
 
         SWITCHING BETWEEN USERS
 
