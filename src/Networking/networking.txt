@@ -44,3 +44,14 @@
 
             Network Topologies
        - This refers to a pattern that shows how nodes are connected to each other
+       - The pattern can be
+                1. Physical topology - defines how devices are wired together.
+                2. Logical topology -  refers to how data moves through the network.
+       - These topologies include
+                1. Bus - All devices are connected together in a straight line. Usually slow since
+                    a request has to go through another device before it reaches its end point.
+                2. Mesh - A complex structure where devices are interconnected together. It maybe partial
+                        or full. Partial, one device is connected to at least two devices while in a full mesh
+                        all devices are interconnected together.
+                3. Hybrid - A combination of two or more topologies, e.g the star-bus topology
+                4. Star - Devices are connected to one central switch.
