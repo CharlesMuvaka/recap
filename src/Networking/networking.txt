@@ -66,3 +66,11 @@
        1. Client-server - Data management and application hosting is centralized in the server and Each device gets data from a server
        2. Peer-to-peer -  Each device has its own data and application and security and management of the data is upon the device.
 
+            Network Protocols
+       - A set of rules that define the formatting and transmission of data within a network.
+       - They are found on Layer 3(Network) and Layer 4(Transport) of the OSI model.
+       - They are of two types
+            1. Connection less protocols -  Data transmission occurs without an established connection between the
+                            two devices. Communication is in async.
+            2. Connection oriented protocols - For data transmission to occur, the devices must establish a
+                            connection. The transmission should be synchronous
