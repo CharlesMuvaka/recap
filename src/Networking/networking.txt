@@ -33,3 +33,14 @@
        NOTE: The switch and the hub are both layer 2 devices
   5. Router - Connects multiple switches/ hubs together. It filters data and sends it to its
             intended destination. It operates both in layer 2 and 3. Can read data as a frame or a packet.
+
+            Network Types
+       1. Local Area Network
+         - Connects devices on a small geographical area
+       2. Wide Area Network
+         - Connects devices on a large geographical area.
+         - Uses fibre optics technologies and satellites to transmit data.
+         NOTE: The internet is an example.
+
+            Network Topologies
+       - This refers to a pattern that shows how nodes are connected to each other
