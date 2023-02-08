@@ -47,6 +47,8 @@
        - The pattern can be
                 1. Physical topology - defines how devices are wired together.
                 2. Logical topology -  refers to how data moves through the network.
+                    NOTE: Amazon Virtual Private Cloud is an example of a logical topology that allows you to launch AWS
+                    resources that you launch.
        - These topologies include
                 1. Bus - All devices are connected together in a straight line. Usually slow since
                     a request has to go through another device before it reaches its end point.
@@ -54,4 +56,13 @@
                         or full. Partial, one device is connected to at least two devices while in a full mesh
                         all devices are interconnected together.
                 3. Hybrid - A combination of two or more topologies, e.g the star-bus topology
-                4. Star - Devices are connected to one central switch.
+                4. Star - Devices are connected to one central switch. Data sent from one device must pass through
+                        the central switch before its send to its intended destination.
+
+
+           Network Management
+       - These define the roles of devices in a network
+       - They consist of two types
+       1. Client-server - Data management and application hosting is centralized in the server and Each device gets data from a server
+       2. Peer-to-peer -  Each device has its own data and application and security and management of the data is upon the device.
+
