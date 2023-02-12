@@ -74,3 +74,21 @@
                             two devices. Communication is in async.
             2. Connection oriented protocols - For data transmission to occur, the devices must establish a
                             connection. The transmission should be synchronous
+
+
+            Internet Protocols(IP)
+       - A set of rules and formatting that define communication over the internet.
+
+            IP Address
+       - A set of unique numbers that identifies a device communicating iver the internet.
+       - The internet uses this address to deliver data packets from a source to its destination.
+       - Usually assigned by the internet service provider.
+       - There are two types.
+            1. Static IP addresses - They don't change once assigned to a device. Assigned to devices whose functions
+                        are constant. Example printers, servers etc.
+            2. Dynamic IP addresses - They change from time to time.
+
+
+       SUBNETING
+
+       - The process of subdividing your network into smaller segments.
