@@ -90,5 +90,10 @@
 
 
        SUBNETING
-
        - The process of subdividing your network into smaller segments.
+
+       Importance
+       - Reducing the amount of traffic in a network by redirecting data packets in this smaller
+        networks that belong to the main network. Avoids collision of data packets.
+       - Maximize the ability of IP addressing.
+       - Provide administration of network security policies to this subnets.
