@@ -170,3 +170,24 @@
 
         SWITCHING BETWEEN USERS
 
+
+
+        Editing Files in linux
+- Most configuration files are documented in text files.
+- You can use the graphical user interface or command line interface to edit them.
+- The commonly used editor is called THE VIM editor( used in the command line).
+- it is also known as vi based on the linux distro one is using.
+- It uses two modes in editing a file.
+        1. Command mode - A set of commands to instruct what to do.
+        2. Insert mode - Writing the file.
+
+        Common commands used in vim
+        Command      Use
+           x      -  Cuts a character in the file.
+           G      - Moves the cursor on the bottom of the file.
+           gg     - Moves the cursor at the top of the page
+           42/G   - Moves the cursor at the 42 line of the file.
+         /keyword - Searches for a certain keyword in the file.
+            p     - pastes a character in the file.
+            y     - cuts a character from the file.
+            i     - Enters in insert mode.
