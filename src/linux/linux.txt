@@ -206,3 +206,14 @@
             a     - Enters in the insert mode.
             hjkl  - Are used to move the cursor while in the command mode.
             :q!   - Exits the vim editor without saving any change made in the file.
+            :wq   - Exits the vim editor while saving the current changes.
+
+            DELETING commands
+            - dw - deletes from where the cursor is placed to the beginning of the new word.
+            - de - deletes from where the cursor is placed to the end of the current word.
+            - dd - deletes the whole line.
+            - d$ - deletes the whole sentence.
+
+            UNDO commands
+            - u - undoes the recent fix.
+            - U - makes the file to be how it was.
