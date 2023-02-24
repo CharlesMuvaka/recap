@@ -70,6 +70,7 @@
       - echo - used to print text on the terminal console.
       - touch - used to create a file inside a directory
       - history - prints out the list of commands that the user has typed.
+            Hint: You can type ctrl T to search for a command
       - mkdir - creates a directory.
       - cd - changes the directory that the user is in(cd .. - moves one step below your current directory
               cd muvaka - enters into a directory known as muvaka,
@@ -80,6 +81,7 @@
       - head - prints out the first 10 lines of a file( takes in -n option just as the tail command does.)
       - grep - Used to search for an existing text in a file.
       - passwd - used to change the password of a user.
+      - !! prints the last used command
 
             USER ACCOUNTS
       - The etc/passwd file stores all the users present in the system.
@@ -153,7 +155,7 @@
                argument2: name of the user being modified
 
                 Example:
-                    usermod -aG hr muvaka - adds a user known as muvaka in the hr group without removing him from his previous groups.
+                    usermod -a -G hr muvaka - adds a user known as muvaka in the hr group without removing him from his previous groups.
 
 
 
@@ -169,6 +171,14 @@
               delete / can be run by the root o erase the whole system.
 
         SWITCHING BETWEEN USERS
+        1. Sudo - gives you full privileges in the system.
+        2. Su - Can be used to log in a different existing user in the machine
+            su muvaka - It will prompt you the password of the user.
+        NOTE: The sudoers file contains a list of users with permissions to run commands
+                that require root rights
+                - When a root command is executed the log is stored in the secure file
+                    stored in the log directory inside the var
+                            /var/log/secure
 
 
 
