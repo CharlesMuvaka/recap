@@ -190,10 +190,12 @@
 - It uses two modes in editing a file.
         1. Command mode - A set of commands to instruct what to do.
         2. Insert mode - Writing the file.
+            NOTE: While in the insert mode you cant execute commands.
+                You can type the esc key to shift between the two modes.
 
         Common commands used in vim
         Command      Use
-           x      -  Cuts a character in the file.
+           x      -  Removes a character in the file. The cursor removes the character that is below it.
            G      - Moves the cursor on the bottom of the file.
            gg     - Moves the cursor at the top of the page
            42/G   - Moves the cursor at the 42 line of the file.
@@ -201,3 +203,6 @@
             p     - pastes a character in the file.
             y     - cuts a character from the file.
             i     - Enters in insert mode.
+            a     - Enters in the insert mode.
+            hjkl  - Are used to move the cursor while in the command mode.
+            :q!   - Exits the vim editor without saving any change made in the file.
