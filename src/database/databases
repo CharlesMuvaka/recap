@@ -1,0 +1,17 @@
+                                    CSV files
+- This file contains data separated by a comma.
+- Each ine contains the same sequence of data.
+- They are used to import and export data into the database.
+- The snippet below exports data into the database.
+
+    LOAD DATA INFILE 'c:/tmp/city.csv'
+    INTO TABLE city FIELDS TERMINIATED BY ' , ‘
+    ENCLOSED BY ' " ‘
+    LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+
+- The following snippet exports data from a database into the csv file.
+
+    LOAD DATA INFILE 'c:/tmp/city.csv' INTO TABLE city FIELDS
+    TERMINIATED BY ' , ‘
+    ENCLOSED BY ' " ‘
+    LINES TERMINATED BY '\n' IGNORE 1 ROWS;
