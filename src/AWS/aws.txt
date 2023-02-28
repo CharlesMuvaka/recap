@@ -34,3 +34,22 @@
 - The subsequent snapshots are incremental and oly contains data that has changed since the most recent snapshot.
 
     NOTE: You can also back up the instances manually by creating a snapshot.
+
+    Creating a Database Instance
+- The easiest way to create a DB instance is using the AWS management Console.
+- It provides two options
+        1. The Easy create method - Can be enabled or disabled
+        2. The Standard Create.
+
+  NOTE: When you use the easy create method,
+        1. You specify the database engine.
+        2. Configuration options are based on Amazon best practices.
+        3. The size of the Instance
+        4. An identifier to the instance.
+
+    - When you choose the standard create method, you determine your own configurations.
+
+
+    Creation Steps
+    1. Choose the create method to use
+    2. Select the database engine to use.
