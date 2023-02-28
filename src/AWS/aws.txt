@@ -56,7 +56,7 @@
 
     Replication and High Availability of Amazon RDS
 
-- You can create a database instance with high availability using multi AZ deployment.
+- You can create a database instance with high availability using multi A-Z deployment.
 - This configuration creates a standby copy of the database instance in a different availability zone but in the same
     VPC(virtual Private Cloud)
 - After you make the initial full copy, transactions are synchronously replicated in the standby copy.
@@ -67,3 +67,18 @@
      NOTE: When the primary instance fails, Amazon RDS automatically brings the StandBy database online as the primary instance.
            - Applications requests are redirected to this instance using the Amazon DNS system endpoint.
            - There is no need to change the application code and no data loss is encountered due to the synchronous replication.
+
+     Amazon RDS Read replicas and Scaling.
+- Amazon RDS also offers the ability to create read replicas of your database instance.
+- Updates of the source DB instance are synchronously replicated to the read replica instances.
+- You can redirect certain responses to the replicas to reduce Load in your source DB instance.
+- You can also use the read replicas to scale out beyond the capacity constraints of a single DB instance for heavy work loads.
+- They can also be promoted to become the source DB, though this is done manually.
+- Read replicas can be created in different regions from the primary DB instance. Applications in the same geographical region
+    can be redirected to get data from this read replicas.
+    - This helps satisfy Disaster recovery requirements and also reduce latency(delays before data transfer begins).
+
+    NOTE: You can also increase the Database instance capacity by changing its instance class or its storage capacity.
+         - Changing the instance class by increasing the CPU or its memory allocation.
+            - You will incur downtime while changing the instance class.
+         - Increasing the storage capacity by modifying the allocated storage. No downtime incurred
