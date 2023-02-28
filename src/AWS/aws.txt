@@ -53,3 +53,17 @@
     Creation Steps
     1. Choose the create method to use
     2. Select the database engine to use.
+
+    Replication and High Availability of Amazon RDS
+
+- You can create a database instance with high availability using multi AZ deployment.
+- This configuration creates a standby copy of the database instance in a different availability zone but in the same
+    VPC(virtual Private Cloud)
+- After you make the initial full copy, transactions are synchronously replicated in the standby copy.
+    Benefits.
+     - Availability of data during planned season maintenance.
+     - Protect your database against failures or disruptions of availability zones.
+
+     NOTE: When the primary instance fails, Amazon RDS automatically brings the StandBy database online as the primary instance.
+           - Applications requests are redirected to this instance using the Amazon DNS system endpoint.
+           - There is no need to change the application code and no data loss is encountered due to the synchronous replication.
