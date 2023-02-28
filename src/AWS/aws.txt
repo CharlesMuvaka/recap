@@ -82,3 +82,16 @@
          - Changing the instance class by increasing the CPU or its memory allocation.
             - You will incur downtime while changing the instance class.
          - Increasing the storage capacity by modifying the allocated storage. No downtime incurred
+
+         AURORA DATABASE ENGINE.
+- It is a relational database engine.
+- A database engine is a service for storing, processing and securing data.
+
+         Benefits of Aurora
+            1. Uses the same code tools as MySql and postgreSql.
+            2. It includes a high performance subsystem.
+            3. Its MySql compatible and PostgreSql database compatible engine are customized to take advantage of the
+                fast distributed storage.
+            4. Contains clusters that contain one or more DB instances and a cluster volume that manages data for the DB
+                instances.
+
