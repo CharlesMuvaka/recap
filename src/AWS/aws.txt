@@ -25,3 +25,12 @@
                 4. Microsoft SQL server
                 5. MariaDb
                 6. Oracle
+
+        Backing up Data
+- Since it's a fully managed service, RDS automatically performs periodically back up of the DB instance.
+- The entire instance is backed up in a storage volume snapshot during a specified backup window.
+- It is retained according to a specified backup retention period.
+- The first snapshot of the DB instance contains its full data.
+- The subsequent snapshots are incremental and oly contains data that has changed since the most recent snapshot.
+
+    NOTE: You can also back up the instances manually by creating a snapshot.
