@@ -1,0 +1,27 @@
+                            Amazon Relational Database
+- It is a database management service that sets up and operates a relational database in the cloud.
+- Amazon Use cases
+    1. Hoisting web and mobile applications
+    2. Ecommerce applications hoisting
+    3. Mobile and online games hoisting
+- It saves the user time to think about database management and focus solely on his applications.
+
+        Database Instance.
+- It is an isolated database environment that runs on the cloud.
+- It is the basic building block of Amazon relational database.
+- Can contain multiple created user databases.
+- These databases can be accessed using the same tools used to access the database.
+- The resources of the DB instance are determined from its instance class.
+- The type of storage is determined from the type of disk.
+
+    NOTE: The database instance and the storage type differ in performance and cost to ensure the user
+        customise the database based on his requirements.
+
+        - Before you select a DB instance you must select the database engine that you will use.
+        - Amazon RDS currently supports six Database engines
+                1. PostGreSql
+                2. MySql
+                3. Aurora
+                4. Microsoft SQL server
+                5. MariaDb
+                6. Oracle
