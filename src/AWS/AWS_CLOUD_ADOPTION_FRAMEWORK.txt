@@ -1,0 +1,23 @@
+                                AWS CLOUD ADOPTION FRAMEWORK.
+- For an organisation to fully migrate its operations to the cloud, three aspects must be put into consideration.
+    1. The people.
+    2. Process
+    3. Technology.
+- The organisation must recognise its current state, target state and the transition needed to achieve the target
+    state.
+- AWS helps organisations develop efficient and effective plans for their cloud adoption journey.
+- It breaks down complex processes of planning a move into manageable tasks known as perspectives.
+- Perspectives represent special areas of focus that include:
+    1. The people.
+    2. Processes
+    3. Technology.
+- AWS organizes perspectives into six categories.
+    1. Business.           4. Platform
+    2. People.             5. Security
+    3. Governance.         6. Operations.
+- The first three are mainly concerned on business capabilities while the last three are mainly concerned
+    with technical capabilities.
+
+        Business Perspective.
+- We must make sure that IT is properly aligned with its business needs.
+
