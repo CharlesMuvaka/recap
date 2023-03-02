@@ -1,0 +1,5 @@
+                                        SQL
+- Structured query language is used to execute commands to manipulate the database
+- It's commands are divided into two.
+    1. Data Definition Language.
+    2. Data Manipulation language.
