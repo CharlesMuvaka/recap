@@ -109,3 +109,37 @@
                 SUMMARY.
  - A DB instance is an isolated database environment that runs in the cloud.
 
+            DYNAMODB
+- A fully managed serverless key value pair non-relational database
+
+    Advantages
+        1. Scalability - As your database grows it automatically increases its size.
+        2. Redundancy - It copies your data in multiple AWS regions to avoid data loss.
+        3. Recoverability - It can restore your data from automatic data recovery operations.
+        4. Low Latency(delays before data transfer begins) - It reads your data in milliseconds.
+        5. Flexibility -  Being a non sql database, It can store data of different kinds stored in JSON format.
+        6. Security - IAM users can be partitioned to control access of data in the database tables.
+
+        How it works
+ - Similar to a relational database, it stores data in tables. Each data must be identified with a unique key known as the
+    primary key.
+ - The primary key and table name must be defined during the table creation.
+ - Each table must have at least one column denoting the primary key.
+ - Columns here are referred to as attributes(Fundamental data elements that cannot be broken down any further.)
+    NOTE: The primary key can be denoted by two attributes.
+    Example: In a friends table - A friendId can be considered as the primary key whereas name, hobby, favourite_color
+             might be considered as attributes.
+ - An Item is a group of attributes that are identifiable among all data elements.
+    REM: Each item can have different number and type of data elements.
+
+
+        Differences between relational and non-relational databases
+         - A relational database stores data in tables with pre-defined columns of specific data types while non-relational
+          store data in tables with a flexible column structure.
+         - Relationships ca be formed using table constraints in a relational database.
+         - Each data entry consists of the same number of items in a relational database while items may differ in number
+            and type of elements.
+         - performance in a relational database can be enhanced by increasing the capacity of the database while a non relational
+            database improves performance by increasing a server in an existing pol of database servers.
+
+
