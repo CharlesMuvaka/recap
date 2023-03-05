@@ -150,7 +150,17 @@
  - When new data is added in the table a new partition is created.
  - Tables whose data is evenly distributed across multiple partitions deliver the best performance.
 
+        Global Tables
+ - A global table is a collection of one or more DynamoDB tables that must all be owned by a single AWS account.
+ - Tables in these collections are known as replicas, and they usually store the same set of data items.
+ - When you create a global table, you define the AWS regions in which the table will be available. Dynamo Db then
+    creates replicas in these regions and copies data into them. It also keeps them in sync, when data is added in one region
+    it is automatically copied to the other replicas.
+        NOTE: They work well with large scale applications with globally dispersed users by accessing the replica that is closest
+                to them.
 
+ NOTE: Non-SQL databases have flexible schemas therefore developers don't need to do any engineering. You can work with the
+        data without having the need to understand the relationships within the data.
 
 
         Differences between relational and non-relational databases
