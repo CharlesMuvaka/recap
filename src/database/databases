@@ -15,3 +15,12 @@
     TERMINIATED BY ' , ‘
     ENCLOSED BY ' " ‘
     LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+
+                                Database interaction
+- There are three wats to interact with databases
+            1. Client-server model -applications are created to provide an instrument for interaction between the users
+                    and the DBMS interface.
+            2.Three-tier applications with web pages - Web users engage in a direct database interaction. Communication occurs
+                        on a front-end interface
+            3. Embedded application code.
+
