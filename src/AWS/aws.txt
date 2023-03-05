@@ -132,6 +132,26 @@
  - An Item is a group of attributes that are identifiable among all data elements.
     REM: Each item can have different number and type of data elements.
 
+        Primary Keys.
+ - A primary key uniquely identifies an item in the table.
+ - There are two types of primary keys.
+    1. Simple Primary Key
+    2. Composite primary key.
+
+        Simple Primary Key
+ - It consists of one attribute know as the partition key or harsh key.
+        Composite primary key
+ - Consists of two attributes.
+ - The first attribute stores the partition key/harsh key while the second attribute stores the sort key or range attribute.
+
+        Partitions
+ - Data is stored in partitions indexed by the primary key of the item.
+ - Each table consists of one or more partitions representing the items it stores.
+ - When new data is added in the table a new partition is created.
+ - Tables whose data is evenly distributed across multiple partitions deliver the best performance.
+
+
+
 
         Differences between relational and non-relational databases
          - A relational database stores data in tables with pre-defined columns of specific data types while non-relational
