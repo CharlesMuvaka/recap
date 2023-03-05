@@ -168,7 +168,7 @@
 
         Note: The root user is always denoted by an # sign after the prompt while a standard user is denoted by a $ sign.
               It is good to login as a standard user and then elevate yourself to the permissions you need.
-              delete / can be run by the root o erase the whole system.
+              delete / can be run by the root to erase the whole system.
 
         SWITCHING BETWEEN USERS
         1. Sudo - gives you full privileges in the system.
@@ -179,6 +179,13 @@
                 - When a root command is executed the log is stored in the secure file
                     stored in the log directory inside the var
                             /var/log/secure
+             - It is better to use sudo than su since the sudo command doesn't the user password when used
+             - You can run sudo -LU <username> to view all the permissions dedicated to a certain user.
+
+             Differences between the su and sudo command
+             - The su command activates full privileges and permissions in the system while the sudo command only activates
+                a specific administrative command to be used by the user.
+             - su command prompts users for their password while the sudo doesn't
 
 
 
