@@ -39,3 +39,10 @@
 - Transactions can be used to run a set of operations so that the database never contains a set of partial operations.
     If one operation fails, then the database is restored to its original state.
 - Used to provide isolation between programs that access the database simultaneously.
+
+                    Properties of database transactions
+- Transactions follow four simple standards known as ACID:
+    1. Atomicity - Ensures that all changes are successfully completed.
+    2. Consistency - Ensures that any changes don't affect the integrity of the database including the constraints.
+    3. Isolation - Transactions are isolated meaning they don't interfere with other transactions.
+    4. Durability - Commits the transaction so that any interruptions to the database availability, doesn't affect the consistency of the data.
