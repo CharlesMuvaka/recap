@@ -187,7 +187,7 @@
                 a specific administrative command to be used by the user.
              - su command prompts users for their password while the sudo doesn't
 
-             AWS IDENTITY AND ACCESS MANAGEMENT
+             AWS IDENTITY AND ACCESS MANAGEMENT(IAM)
 - IAM is an AWS service that is used to manage users and access to resources in the cloud.
 - It can be accessed using:
         1. AWS management console - A web interface via the browser
