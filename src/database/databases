@@ -24,3 +24,18 @@
                         on a front-end interface
             3. Embedded application code.
 
+                    Transactions
+- They represent reproduction of one or more changes that are performed in the database.
+- A transaction denotes any alteration performed in the database.
+- A transaction can consist of five statuses
+        1. Active - This is the initial state of a transaction, when it is being executed.
+        2. Partial committed - It enters this stage when it is completing its final operations
+        3. Failed - It enters this state when any checks made by the database recovery system fail.
+        4. Aborted - A transaction enters this when the database recovery system check fails and the database rolls to its
+                    original state before the transaction was committed.
+        5. Committed - When all operations within a transaction have been successfully executed.
+
+                    Uses of Transactions
+- Transactions can be used to run a set of operations so that the database never contains a set of partial operations.
+    If one operation fails, then the database is restored to its original state.
+- Used to provide isolation between programs that access the database simultaneously.
