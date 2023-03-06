@@ -46,3 +46,12 @@
   NOTE: The AppModule being the root module doesn't have exports as a metadata object since its main job is to
         import other modules.
 
+                Components
+- Angular puts everything in the user interface into self-contained components.
+- A component controls one or more sections in the screen know as a view.
+- We generate components easily using the angular CLI by typing the command, ng generate component <name_of_component>
+- The command generates four other additional files.
+            1. An HTML template that defines what to be rendered on the page.
+            2. A CSS file that contains code for styling the page.
+            3. A typescript file that defines the logic of the file.
+            4. A testing specification file.
