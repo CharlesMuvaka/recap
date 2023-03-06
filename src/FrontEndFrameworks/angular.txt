@@ -22,3 +22,13 @@
 6. Directives
 7. Services
 8. Data Binding
+                                Modules
+- Angular applications follow a modular structure. An application can consist of one or more modules each dedicated
+    for a single purpose.
+- Modules are also known as ngModules. These are classes denoted by the @ngModule decorator.
+    NOTE: Decorators are functions that modify javascript classes. They are used to attach metadata to this classes
+          denoting their configurations and how they should work.
+- Each angular application must have a root module denoting the apps entry point.
+- It is conventionally named as the AppModule, and it resides in the app.module.ts file.
+- All other modules must be imported to the AppModule for them to work.
+
