@@ -52,6 +52,21 @@
 - We generate components easily using the angular CLI by typing the command, ng generate component <name_of_component>
 - The command generates four other additional files.
             1. An HTML template that defines what to be rendered on the page.
-            2. A CSS file that contains code for styling the page.
+            2. A CSS file that contains code for styling the component.
             3. A typescript file that defines the logic of the file.
             4. A testing specification file.
+
+            Metadata
+- Data that describes another data.
+- In angular, it tells how to process a class.
+- Decorators are used to attach metadata to a class.
+    Example: @Component decorator tells angular that the given class is a component while the @NgModule stands for
+                a Module.
+    - Metadata attached to the @Component decorator include:
+            1. selector - It tells angular to create and insert an instance of this component where it finds the
+                    given selector.
+            2. templateUrl - It contains the path of this components HTML template.
+            3. stylesURL - It is the components specific style sheet.
+    NOTE: The metadata found in the @Component decorator tells angular where to find the major building blocks of the
+            component
+          - The template, metadata and component together describe a view.
