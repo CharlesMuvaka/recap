@@ -32,3 +32,17 @@
 - It is conventionally named as the AppModule, and it resides in the app.module.ts file.
 - All other modules must be imported to the AppModule for them to work.
 
+       The @NgModule Decorator
+- It's a decorator function that takes in metadata objects whose properties describe the module.
+- Some Metadata objects include:
+        1. Declarations - These are classes that belong to the views that belong to this module. There are three type
+                        of classes that belong to a view. Components, Directives and pipes.
+        2. Exports - These are classes that should be accessible to the components of other modules.
+        3. Imports - Other existing Modules whose classes are needed by the components of this module.
+        4. Providers - Services present in one of the modules that should be used by other modules or components.
+                NOTE: Once a service is included in the providers it becomes accessible to the whole application.
+        5. Bootstrap - This metadata object is only found in the root module and it contains the component to be loaded.
+
+  NOTE: The AppModule being the root module doesn't have exports as a metadata object since its main job is to
+        import other modules.
+
