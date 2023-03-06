@@ -1,0 +1,24 @@
+                                            Angular Framework
+- Angular can be written using Javascript, type script or Dart.
+- Angular CLI(Command Line interface provides us the needed tools to perform a variety of tasks.) helps us to
+    develop our application
+- It consists of a set of commands that:
+        1. Help us create a new application
+        2. Build our application
+        3. Serve our application.
+- All angular commands begin with the prefix 'ng'.
+- Some of the most commonly used commands include:
+    1. ng new <app_name> - Used to create a new application
+    2. ng build - It processes our application files and makes them ready for deployment.
+    3. ng serve - This command lets us run our application in development mode hence helping
+     us see how it looks like.
+
+                            Building Blocks of Angular
+1. Angular CLI
+2. Modules
+3. Components
+4. Metadata
+5. Dependency Injection
+6. Directives
+7. Services
+8. Data Binding
