@@ -1,5 +1,17 @@
                                         SQL
 - Structured query language is used to execute commands to manipulate the database
 - It's commands are divided into two.
-    1. Data Definition Language.
-    2. Data Manipulation language.
+    1. Data Definition Language - This language is used to create database schemas and their constraints as well.
+    2. Data Manipulation language - This language is used to adding, deleting and modifying data in a database.
+
+    Data Manipulation Language
+- Common commands used in modifying data in a database include.
+    1. Insert
+- This command is used to add a single or multiple records in a database table.
+
+ SYNTAX: insert into <table_name>(col1, col2, col3) values(1,2,3)
+ NOTE: All character and date values should be enclosed in quotation marks.
+       - You can choose to specify the column names in which the data to be inserted or not.
+
+    2. Update
+- This command is used to
