@@ -66,3 +66,10 @@
     6. Unacceptable characters in a text.
 NOTE: Errors such as additional spaces in characters can be resolved using the TRIM keyword. It removes extra
         spaces in characters.
+
+        DESCRIBE KEYWORD
+- It is used to describe the schema related to a table.
+- It shows the number of columns involved in a table and the data type involved with each column.
+ Example: Consider table students, describe students will list the columns involved with the database and the
+            type of data supposed to be filled in these columns
+            
