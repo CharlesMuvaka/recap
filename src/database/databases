@@ -46,3 +46,23 @@
     2. Consistency - Ensures that any changes don't affect the integrity of the database including the constraints.
     3. Isolation - Transactions are isolated meaning they don't interfere with other transactions.
     4. Durability - Commits the transaction so that any interruptions to the database availability, doesn't affect the consistency of the data.
+
+                    Cleaning data in a database
+- You can use the following commands to ensure that data in a database is consistent.
+        1. LEFT - Selects data specified in the left position
+        2. RIGHT - selects data specified in the right position.
+        3. TRIM - selects specified data based on the given requirements.
+        4. LOWERCASE - converts data in small letters.
+        5. UPPERCASE - converts data in capital letters.
+        6. CONCAT - Combines strings from different columns together.
+
+        Common Database Errors
+- Most common database errors include.
+    1. Wrong data type.                          7. Truncated or censored data.
+    2. Duplicate data                            8. Broken references.
+    3. Unacceptable characters in a text.
+    4. Missing data
+    5. Inconsistent data representation.
+    6. Unacceptable characters in a text.
+NOTE: Errors such as additional spaces in characters can be resolved using the TRIM keyword. It removes extra
+        spaces in characters.
