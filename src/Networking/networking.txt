@@ -107,6 +107,17 @@
                 1. Identify the host of the network.
                 2. Identify the network itself.
 
+                IPv4(Internet protocol version four)
+- It is made up of 32 bits.
+- Contains four numbers from 0 to 255 separated by periods each containing 8 bits. E.g 192.168.10.0
+
+                IPv6(Internet protocol version six)
+- It extends the range IPv4 addresses by a factor of 1,028. It uses a group of hexadecimal numbers that are separated by eight(8) colons.
+- Advantages over IPv4
+                1. Increases security.
+                2. Improved performance.
+                3. Handles packets more efficiently.
+
 
        SUBNETING
        - The process of subdividing your network into smaller segments.
