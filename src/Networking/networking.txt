@@ -118,6 +118,34 @@
                 2. Improved performance.
                 3. Handles packets more efficiently.
 
+               Special Purpose IP addresses
+- When a network is assigned a range of IP addresses.
+- The second IP address is usually the gateway address. The IP address of the network router.
+- The last IP address is usually the broadcast address. It is usually used to send messages to all devices connected
+ to the network.
+
+                Converting IP addresses into Binary.
+- Binary numbers are usually expressed in the base 2 numeral system and only consist of zeros and ones.
+- The zeros and ones are known as bits.
+- An Ipv4 IP address contains four 8-bit numbers separated by periods meaning that its usually 32 bits.
+
+                Port Numbers
+- They help in identifying the exact source or destination of data in a network.
+- Some common port numbers include
+            1. Port 80 - HTTP( Used to connect to webpages)
+            2. Port 443 - HTTPS( A secure version of HTTP that connects to webpages)
+            3. Port 22 - SSH (Used to create a secure network connection)
+            4. Port 53 - DNS( Used for the modern internet)
+            5. Port 3389 - RDP( Used to connect remotely to their desktop from another computer)
+
+            Importance of Port Numbers
+    1. Limit access of data to specific devices in a network.
+    2. Easier troubleshooting of issues. by use of commands such as ss, telnet or netstat.
+        NOTE: - netstat command checks to see established connections, a blocked port won't be visible in the
+              connected devices.
+              - ss command checks only to see established IPv4 connections.
+              - telnet command confirms TCP connections to a web server.
+
 
        SUBNETING
        - The process of subdividing your network into smaller segments.
