@@ -72,4 +72,9 @@ NOTE: Errors such as additional spaces in characters can be resolved using the T
 - It shows the number of columns involved in a table and the data type involved with each column.
  Example: Consider table students, describe students will list the columns involved with the database and the
             type of data supposed to be filled in these columns
-            
+
+        NULL statement
+- Null statements are used as placeholders for empty values and increase readability.
+- You can only insert a null value when the specified column constraint is not as NOT NULL.
+- When a column is created with the NOT NULL clause, you must input a value when you do an INSERT. An error arises
+  when you don't.
