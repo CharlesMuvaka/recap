@@ -1,3 +1,17 @@
+                            Amazon Elastic Compute Cloud(EC2)
+- This is a web service that provides a secure, resizable capacity in the cloud.
+-
+               Amazon EC2 instance.
+- This is a virtual server in the elastic cloud that helps in running applications in the Amazon web services.
+- They are usually assigned IP addresses.
+- They should be assigned static IP addresses to ensure that it doesn't change when the instance is restarted.
+- This static IP assigned to  it is also known as an Elastic IP.
+- They usually have both private and public IP addresses.
+    REMEMBER: Public Ip addresses can be accessed over the internet whereas Private cannot and are meant for isolated
+              networks in an organisation.
+              - Private IP addresses in an EC2 instance are used to route traffic within the VPC(Virtual Private Cloud)
+              - Public IP is used for connection via the internet.
+
                             Amazon Relational Database
 - It is a database management service that sets up and operates a relational database in the cloud.
 - Amazon Use cases
