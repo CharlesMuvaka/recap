@@ -80,13 +80,32 @@
        - A set of rules and formatting that define communication over the internet.
 
             IP Address
-       - A set of unique numbers that identifies a device communicating iver the internet.
+       - A set of unique numbers that identifies a device communicating over the internet.
        - The internet uses this address to deliver data packets from a source to its destination.
        - Usually assigned by the internet service provider.
        - There are two types.
             1. Static IP addresses - They don't change once assigned to a device. Assigned to devices whose functions
                         are constant. Example printers, servers etc.
             2. Dynamic IP addresses - They change from time to time.
+       - Internet protocols are applied in layer 3 of the OSI model.
+       - They can be further be classified as:
+            1. Private - They cannot be accessed via the internet.
+            2. Public -  They can be accessed via the internet.
+
+                    Common issues that can happen with IP addresses
+            1. Latency - These are delays in data transfer. An application takes a long time to load. traceroute command can be used to check what
+                        might be causing the latency. The command gives a report for the path the packet takes from the destination to its source.
+                        NOTE: In this stage each server is known as a hop, and it checks for data loss as well.
+            2. Server not responding to requests.
+
+       REMEMBER: Layer 2(Data Link) establishes physical connection between two nodes  that use MAC Addresses using RG45 cables(Ethernet cables).Data
+                 is also considered as a frame.
+
+                 Layer 3(Network Layer) translates logical network addresses into physical addresses. It establishes how to deliver the message or break
+                 it down if it's too large.
+       - The Ip address serves in two purposes,
+                1. Identify the host of the network.
+                2. Identify the network itself.
 
 
        SUBNETING
