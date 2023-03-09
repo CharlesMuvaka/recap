@@ -47,8 +47,13 @@
       - The name should always be in lower case and is usually stored in the etc/passwd file.
       - A password is also prompted which is stored in the etc/shadow file.
 
+            SHELL
+- This is a program that takes in commands from the keyboard and passes it to the kernel(A program at the root
+  of the operating system that has complete control over the operating system.)
+    NOTE: The terminal is a program that opens up a window to allow the user interact with the shell.
+
             LINUX COMMAND PROMPT
-      - Bash is the default shell for linux distros, it provides a command prompt - A text interface
+      - Bash(Bourne Again Shell) is the default shell for linux distros, it provides a command prompt - A text interface
         that enables a user to type commands directly to the kernel.
       - on init, the shell displays the user and the machine he is working on [user@computerName].
 
@@ -196,6 +201,9 @@
 - It provides access to individual who can manage resources in the AWS cloud.
 - A policy should be attached to a user defining the permission he has been granted.
 
+       FIle system in Linux
+- Files in linux are organized in a hierarchical architecture( A tree like design of directories which may include
+    files and sub-directories).
 
 
         Editing Files in linux
