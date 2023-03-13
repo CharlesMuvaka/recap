@@ -243,6 +243,18 @@
     6. awk - a programming language used for constructing filters.
     7. sed - Stream Editor. Used to perform more sophisticated character translations.
 
+    NOTE: Linux provides a program, (lpr) takes in data from a standard input and sends it to the printer.
+
+    EXAMPLE:
+        cat solitare.txr | fmt | pr | lpr
+        - We read the contents of the solitare.txt file and the use the fmt command to format the texts into neat
+            paragraphs. We use the pr command to split the data into page breaks, footers and headers. We then use the
+            lpr program to print our output.
+
+        cat solitare.txt | sort | uniq | fmt | pr | lpr
+        - We read the contents of the solitare file and sort it, remove all duplicate characters using the uniq command,
+            format the content into neat paragraphs, split the content into page breaks, headers and footers using the pr
+            command. We finally use the lpr program to print our final output.
         Editing Files in linux
 - Most configuration files are documented in text files.
 - You can use the graphical user interface or command line interface to edit them.
