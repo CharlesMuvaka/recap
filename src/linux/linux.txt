@@ -223,6 +223,25 @@
     Example: We want to sort the data contained in a file named solitare.txt;
             sort < solitare.txt
 
+    Pipelines
+- They are used to perform chaining of commands.
+- We would feed the output of a certain command to be the input of another command.
+        Example: We would print the sorted content to another file.
+        sort < solitare.txt > sorted_solitare.txt
+
+        Filters
+- One program used with pipelines is known as a filters. Filters take in standard input, performs an operation
+    on it, and then sends it t standard output.
+
+    SOME USEFUL COMMANDS ASSOCIATED WITH FILTERS.
+    1. Grep - Examines each data it receives from a standard input and outputs each line contained in the specified
+              pattern of characters.
+    2. uniq - Given a stream of data, it removes duplicates(It makes every line to be unique.)
+    3. fmt - Reads data from a standard input and returns a formatted data as output.
+    4. pr - reads data from a standard input and splits it into headers, footers and page breaks.
+    5. tr - Translates characters
+    6. awk - a programming language used for constructing filters.
+    7. sed - Stream Editor. Used to perform more sophisticated character translations.
 
         Editing Files in linux
 - Most configuration files are documented in text files.
