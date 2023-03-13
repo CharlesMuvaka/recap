@@ -217,6 +217,12 @@
             ls >> solitare.txt
          - Also when appending other text and the file specified doesn't exist, The file is created.
 
+    Standard Input.
+- The terminal accepts input from the keyboard. We can also redirect input from files to the keyboard.
+- We use the less than sign "<" followed by the name we will receive input from.
+    Example: We want to sort the data contained in a file named solitare.txt;
+            sort < solitare.txt
+
 
         Editing Files in linux
 - Most configuration files are documented in text files.
