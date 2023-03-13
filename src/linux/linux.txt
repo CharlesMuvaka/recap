@@ -205,6 +205,18 @@
 - Files in linux are organized in a hierarchical architecture( A tree like design of directories which may include
     files and sub-directories).
 
+    I/O Redirection.
+- Commands such as ls print their output on the display. With help of other commands we can redirect the output of
+    the commands to files, devices.
+- To redirect the output of our command to a file we use ">" sign, followed by the name of the file.
+    Example:
+            ls > solitare.txt
+    NOTE: On repeating the same command, The file is overwritten from top to bottom.
+         - To append the list to the existing previous list, we use double greater than signs.
+         Example:
+            ls >> solitare.txt
+         - Also when appending other text and the file specified doesn't exist, The file is created.
+
 
         Editing Files in linux
 - Most configuration files are documented in text files.
